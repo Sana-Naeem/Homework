@@ -1,4 +1,4 @@
-package hw5Q2JavaBasics;
+package hw1Q2JavaConditionalStatement;
 
 public class CompareAge {
 
