@@ -10,78 +10,59 @@ public class TestAnimal {
 
 		Birds birds = new Birds(); //Single Inheritance is shown here.
 		birds.birdsInfo();
-		animal.animalInfo(); 
+		birds.animalInfo();
 
 		System.out.println("\n");
 
-		BullDog bullDog = new BullDog(); //Multiple Inheritance is shown here.
+		BullDog bullDog = new BullDog(); //Hierarchical Inheritance is shown here.
 		bullDog.bullDogInfo();
-		animal.animalInfo();
-		birds.birdsInfo();
+		bullDog.dogInfo();	
+		bullDog.mammalInfo();
+		bullDog.animalInfo();
 		
 		System.out.println("\n");
 
-		Cobra cobra = new Cobra();
+		Cobra cobra = new Cobra(); //Hierarchical Inheritance is shown here.
 		cobra.cobraInfo();
-		animal.animalInfo();
-		birds.birdsInfo();
-		bullDog.bullDogInfo();
-	
+		cobra.snakeInfo();
+		cobra.reptileInfo();
+		cobra.animalInfo();
+			
 		System.out.println("\n");
 
-		Dog dog = new Dog();
+		Dog dog = new Dog(); //Multiple Inheritance is shown here.
 		dog.dogInfo();
-		animal.animalInfo();
-		bullDog.bullDogInfo();
-		birds.birdsInfo();
-		cobra.cobraInfo();
+		dog.mammalInfo();
+		dog.animalInfo();
 	
 		System.out.println("\n");
 		
-		Mammal mammal = new Mammal();
+		Mammal mammal = new Mammal(); //Single Inheritance is shown here.
 		mammal.mammalInfo();
-		animal.animalInfo();
-		birds.birdsInfo();
-		bullDog.bullDogInfo();
-		cobra.cobraInfo();
-		dog.dogInfo();
-
+		mammal.animalInfo();
+		
 		System.out.println("\n");
 
-		Reptile reptile = new Reptile();
+		Reptile reptile = new Reptile(); //Single Inheritance is shown here.
 		reptile.reptileInfo();
-		animal.animalInfo();
-		mammal.mammalInfo();
-		birds.birdsInfo();
-		bullDog.bullDogInfo();
-		dog.dogInfo();
-		cobra.cobraInfo();
-
+		reptile.animalInfo();
+	
 		System.out.println("\n");
 	
-		Robin robin = new Robin();
+		Robin robin = new Robin(); ////Multiple Inheritance is shown here.
 		robin.robinInfo();
-		animal.animalInfo();
-		birds.birdsInfo();
-		mammal.mammalInfo();
-		bullDog.bullDogInfo();
-		cobra.cobraInfo();
-		dog.dogInfo();
-		reptile.reptileInfo();
-		
+		robin.birdsInfo();
+		robin.animalInfo();
+	
 		System.out.println("\n");
 
-		Snake snake = new Snake(); //Hierarchical Inheritance is shown here.
+		Snake snake = new Snake(); //Multiple Inheritance is shown here.
 		snake.snakeInfo();
-		cobra.cobraInfo();
-		animal.animalInfo();
-		mammal.mammalInfo();
-		dog.dogInfo();
-		bullDog.bullDogInfo();
-		reptile.reptileInfo();
-		robin.robinInfo();
-		snake.snakeInfo();
-		birds.birdsInfo();
+		snake.reptileInfo();
+		snake.animalInfo();
+		
+
+	
 		
 		
 		
