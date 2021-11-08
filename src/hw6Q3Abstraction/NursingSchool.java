@@ -11,9 +11,9 @@ public abstract class NursingSchool {
 		 
 	 }
 
-
-	 //NursingSchool nursingSchool = new NursingSchool();
-	 //In an Abstract Class we cannot create a Constructor because it cannot instantiate thus, inhibiting it from creating any objects.
+	 public NursingSchool() {
+			System.out.println("This is the default constructor for Nursing School Class.\n");
+		}
 
 	 
 }

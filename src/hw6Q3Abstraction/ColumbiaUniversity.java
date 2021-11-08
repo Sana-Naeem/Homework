@@ -15,10 +15,7 @@ public class ColumbiaUniversity {
 		System.out.println("This is the default constructor for Columbia University Class.\n");
 	}
 
-	
-	public static void main(String[] args) {
-		ColumbiaUniversity columbiaUniversity = new ColumbiaUniversity(); //Here the class is instantiated 
-		columbiaUniversity.biology(); //Here the method is called from the object.
+
 		
 		
 	}

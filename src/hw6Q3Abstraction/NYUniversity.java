@@ -13,14 +13,9 @@ public class NYUniversity {
 	public NYUniversity() {
 		System.out.println("This is the default constructor for NY University Class.\n");
 	}
+		
+		
 
-	
-	public static void main(String[] args) {
-		NYUniversity nyUniversity = new NYUniversity(); //Here the class is instantiated 
-		nyUniversity.physics(); //Here the method is called from the object.
-		
-		
-	}
 	
 	
 }

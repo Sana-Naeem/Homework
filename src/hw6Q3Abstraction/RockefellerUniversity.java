@@ -12,14 +12,11 @@ public class RockefellerUniversity {
 	
 	public RockefellerUniversity() {
 		System.out.println("This is the default constructor for Rockefeller University Class.\n");
+	
 	}
 
 	
-	public static void main(String[] args) {
-		RockefellerUniversity rockefellerUniversity = new RockefellerUniversity(); //Here the class is instantiated 
-		rockefellerUniversity.statistics(); //Here the method is called from the object.
+
 		
-		
-	}
 
 }

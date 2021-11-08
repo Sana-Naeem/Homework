@@ -7,7 +7,10 @@ public interface College {
 	public abstract void playGround();
 	public abstract void teacher();
 	
-	//College college = new College(); 
+	
+	//public College() {
+	//System.out.println("This is the default constructor for College University Class.\n");
+	//}
 	//We cannot create a constructor inside the Interface because the Interface cannot instantiate thus, inhibiting it from creating any objects.
 	
 	
