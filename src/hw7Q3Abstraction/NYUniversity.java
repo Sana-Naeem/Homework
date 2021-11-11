@@ -1,6 +1,6 @@
-package hw6Q3Abstraction;
+package hw7Q3Abstraction;
 
-public class NYUniversity {
+public class NYUniversity extends RockefellerUniversity{
 	
 	//This is an Abstract method-
 	//public abstract void anthropology();
@@ -16,7 +16,5 @@ public class NYUniversity {
 	}
 		
 		
-
-	
 	
 }

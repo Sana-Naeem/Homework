@@ -1,6 +1,6 @@
-package hw6Q3Abstraction;
+package hw7Q3Abstraction;
 
-public abstract class EngineeringSchool {
+public abstract class EngineeringSchool extends MedicalSchool{
 	
 	//This is an Abstract method-
 	public abstract void mechanicalLab();

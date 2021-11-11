@@ -1,6 +1,6 @@
-package hw6Q3Abstraction;
+package hw7Q3Abstraction;
 
-public class ColumbiaUniversity {
+public class ColumbiaUniversity extends NYUniversity{
 	
 	//This is an Abstract method-
 	//public abstract void chemistry(); 
@@ -15,10 +15,9 @@ public class ColumbiaUniversity {
 		System.out.println("This is the default constructor for Columbia University Class.\n");
 	}
 
-
+	
 		
-		
-	}
+}
 	
 	
 	
