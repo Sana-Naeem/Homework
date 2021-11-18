@@ -35,8 +35,8 @@ public class Niece extends Sister {
 	 * the static method is coming from the class "Sister" which is why it cannot be
 	 * overridden in the class "Niece".
 	 * 
-	 * @Override public static int sister(int age1, int age2) { //Static Method int
-	 *           total3 = age1 + age2; System.out.println("Total age of third sister
+	 * @Override public static int sister(int age1, int age2) { //Static Method 
+	 *           int total3 = age1 + age2; System.out.println("Total age of third sister
 	 *           is: " + total3); return total3; }
 	 * 
 	 * Here I have commented out the "Final Method" because any Variable
@@ -45,7 +45,8 @@ public class Niece extends Sister {
 	 * needed.
 	 * 
 	 * @Override public final int sister(int age1, int age2, int age3, int age5, int
-	 *           age6) { //Final Method int total4 = age1 +age2 + age3 + age5 +
+	 *           age6) { //Final Method 
+	 *           int total4 = age1 +age2 + age3 + age5 +
 	 *           age6; System.out.println("Total age of fourth sister is: " +
 	 *           total4); return total4; }
 	 **/
