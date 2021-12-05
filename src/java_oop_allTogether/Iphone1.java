@@ -54,8 +54,7 @@ public class Iphone1 extends AppleWatch implements Phone {
 	}
 
 	public void regularClassInfo() {
-		System.out.println(
-				"\tClass is a blueprint from which individual objects are created. It contains Only non-abstract methods which are implemented. Just like an abstract class a Regular Class can inherit either One Regular class or One Abstract class by using (extends) keyword. It can also inherit more than one interface by using (implements) keyword.");
+		System.out.println("\tClass is a blueprint from which individual objects are created. It contains Only non-abstract methods which are implemented. Just like an abstract class a Regular Class can inherit either One Regular class or One Abstract class by using (extends) keyword. It can also inherit more than one interface by using (implements) keyword.");
 
 	}
 
