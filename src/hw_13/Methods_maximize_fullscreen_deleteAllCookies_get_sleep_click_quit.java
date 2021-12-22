@@ -1,4 +1,4 @@
-package HW_13_TestNG;
+package hw_13;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
