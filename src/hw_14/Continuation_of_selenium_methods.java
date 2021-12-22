@@ -58,7 +58,7 @@ public class Continuation_of_selenium_methods {
 	@Test(enabled = true, priority = 6)
 	public void currentUrlTest() {
 	driver.get("https://www.ebay.com/");
-	driver.findElement(By.xpath("//a[text()=' Sell']")).click();
+	driver.findElement(By.xpath("//a[text()='Sell']")).click();
 	Thread.sleep(4000);
 	System.out.println("The current Url is: " + driver.getCurrentUrl());
 	
